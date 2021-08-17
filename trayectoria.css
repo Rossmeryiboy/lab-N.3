@@ -1,0 +1,21 @@
+body {
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(233, 130, 247);
+}
+.logo-header img{
+    width: 100px; 
+}
+
+.Parvulos{
+    display: flex;
+    align-items: left;
+}
+
+.imagen1 img{
+    padding-left: 80px;
+    width: 80px;
+
+}

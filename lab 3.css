@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color:rgb(246, 182, 255);
+}
+a,li{
+    color: rgb(8, 8, 8);
+}
+.logo-header img{
+    width: 150px;
+
+    
+}
+.header{
+    background-color: rgb(104, 255, 192);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+
+.nav-menu a:hover{
+    color: #4729f0;
+}
+
+.nav-menu li:last-child{
+    background-color: #89d7f7;
+    border: 2px solid #407ef0;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+
+.nav-menu li:last-child:hover{
+    background-color: transparent;
+    border: 2px solid #4c4ad1;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    width: 360px;
+    height: 360px;
+    background-color: rgb(41, 241, 131);
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px solid rgb(12, 12, 12);
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.tarjeta img {
+    padding-left: 200px;
+    width: 200px;
+}
+.tarjeta p {
+   text-align: justify;
+   margin-bottom: 50px;
+}
+.title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 120px;
+    font-size: 70px;
+   }
